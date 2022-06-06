@@ -1,4 +1,4 @@
-# Computer simulation of stochastic processes
+# Computer simulation of stochastic process
 
 ### Objective
 
