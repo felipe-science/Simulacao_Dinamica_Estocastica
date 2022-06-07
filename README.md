@@ -1,5 +1,8 @@
-# Computer simulation of stochastic process
+# Simulação computacional de processos estocásticos
 
-### Objective
+### Objetivo
 
-The objective of this repository is to expose the simulations of systems studied in the subject of stochastic dynamics in the graduate program in physics at Federal University of Paraíba.
+O objetivo deste repositório é expor simulações de sistemas estudados na disciplina de dinâmica estocástica do programa de pós graduação em física da UFPB.
+
+### Sistemas simulados
+- Movimento Browniano;
