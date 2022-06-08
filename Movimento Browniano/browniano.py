@@ -7,7 +7,7 @@ def caminhada_aleatoria(n_passos=1000):
     w = zeros(n_passos)
     for i in range(1,n_passos):
         yi = random.choice([1,-1])
-        w[i] = w[i-1]+(yi/sqrt(n_passos))
+        w[i] = w[i-1]+yi
     return w
 
 processo1 = caminhada_aleatoria()
