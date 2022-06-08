@@ -12,13 +12,13 @@ def caminhada_aleatoria(n_passos=1000):
     return w
 
 
-
-processo1 = caminhada_dist_normal()
-processo2 = caminhada_dist_normal()
-processo3 = caminhada_dist_normal()
+processo1 = caminhada_aleatoria()
+processo2 = caminhada_aleatoria()
+processo3 = caminhada_aleatoria()
 plot(processo1, label='Partícula 1')
 plot(processo2, label='Partícula 2')
 plot(processo3, label='Partícula 3')
+
 
 title("Caminhada aleatória unidimensional", fontsize='20')
 xlabel("Número de passos", fontsize='15')
