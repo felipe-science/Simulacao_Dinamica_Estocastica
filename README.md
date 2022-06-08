@@ -14,7 +14,7 @@ O movimento browniano é o movimento aleatório de partículas minúsculas suspe
 
 Na caminhada aleatória unidimensional, a partícula pode executar um passo para a esquerda ou para a direita com igual probabilidade. Na imagem abaixo podemos observar este processo realizado por três partículas diferentes, todas elas iniciando na origem.
 
-![Logo do Markdown](img/Caminhada_aleatoria.png)
+![Logo do Markdown](img/Duas_Caminhadas.png)
 
 ### Processos de Wiener
 
