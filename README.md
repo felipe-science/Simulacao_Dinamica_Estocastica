@@ -34,3 +34,11 @@ $\phi(s,t) = \int d\omega P(\omega, t|\omega_0, t_0) e^{is\omega}$
 
 $\frac{∂}{∂t} \phi(s,t) = \frac{∂}{∂t} [\int d\omega P(\omega, t|\omega_0, t_0) e^{is\omega}]$
 
+$\frac{∂}{∂t} \phi(s,t) = \int d\omega \frac{∂}{∂t} [P(\omega, t|\omega_0, t_0)] e^{is\omega}$
+
+Note que o primeiro termo da equação de Fokker-Planck surgiu dentro da integral, por esta razão podemos substituir pelo segundo termo.
+
+$\frac{∂}{∂t} \phi(s,t) = \int d\omega \frac{1}{2} \frac{∂^2}{∂\omega^2}[ P(\omega, t|\omega_0, t_0) e^{is\omega}]$
+
+Aplicando a técnica de integração por partes na primeira na equação acima, ficamos com:
+
