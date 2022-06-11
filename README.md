@@ -22,9 +22,11 @@ Propriedades matemáticas do movimento browniano unidimensional foram estudadas 
 
 ### Dedução da distribuição de probabilidade do processo de wiener
 
-Equação de Fokker-Planck para o processo de Wiener
+Equação de Fokker-Planck para o processo de Wiener com a condição de contorno:
 
 $\frac{∂}{∂t} P(\omega, t|\omega_0, t_0) = \frac{1}{2} \frac{∂^2}{∂\omega^2} P(\omega, t|\omega_0, t_0)$  
+
+$P(\omega, t_0|\omega_0, t_0) = \delta(\omega-\omega_0)$
 
 #
 
@@ -42,3 +44,10 @@ $\frac{∂}{∂t} \phi(s,t) = \int d\omega \frac{1}{2} \frac{∂^2}{∂\omega^2}
 
 Aplicando a técnica de integração por partes na primeira na equação acima, ficamos com:
 
+$\frac{∂}{∂t} \phi(s,t) = -\frac{1}{2}(is) \int \frac{∂}{∂\omega}P(\omega, t|\omega_0, t_0) e^{is\omega}$
+
+Aplicando novamente a técnica de integração por partes, finalmente obtemos que:
+
+$\frac{∂}{∂t} \phi(s,t) = -\frac{s^2}{2}\phi(s,t)$,
+
+cuja solução geral dessa equação diferencial é $\phi(s,t) = \phi(s,t_0)exp[-\frac{s^2}{2}(t-t_0)]$
