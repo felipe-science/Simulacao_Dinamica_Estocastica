@@ -30,7 +30,7 @@ $P(\omega, t_0|\omega_0, t_0) = \delta(\omega-\omega_0)$
 
 #
 
-Função característica:
+#### Função característica:
 
 $\phi(s,t) = \int d\omega P(\omega, t|\omega_0, t_0) e^{is\omega}$ 
 
