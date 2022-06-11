@@ -52,6 +52,6 @@ $\frac{∂}{∂t} \phi(s,t) = -\frac{s^2}{2}\phi(s,t)$,
 
 cuja solução geral dessa equação diferencial é $\phi(s,t) = \phi(s,t_0)exp[-\frac{s^2}{2}(t-t_0)]$
 
-#### Utilizando a condição de contorno para determinar $\phi(s,t_0)$:
+Utilizando a condição de contorno para determinar $\phi(s,t_0)$:
 
 $$
