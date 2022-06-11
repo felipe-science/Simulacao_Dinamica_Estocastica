@@ -30,7 +30,7 @@ $\frac{∂}{∂t} P(\omega, t|\omega_0, t_0) = \frac{1}{2} \frac{∂^2}{∂\omeg
 
 Função característica:
 
-### $\phi(s,t) = \int d\omega P(\omega, t|\omega_0, t_0) e^{is\omega}$ 
+$\phi(s,t) = \int d\omega P(\omega, t|\omega_0, t_0) e^{is\omega}$ 
 
 $\frac{∂}{∂t} \phi(s,t) = \frac{∂}{∂t} [\int d\omega P(\omega, t|\omega_0, t_0) e^{is\omega}]$
 
