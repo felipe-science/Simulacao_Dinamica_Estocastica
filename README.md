@@ -24,9 +24,9 @@ Propriedades matemáticas do movimento browniano unidimensional foram estudadas 
 
 Equação de Fokker-Planck para o processo de Wiener com a condição de contorno:
 
-$\frac{∂}{∂t} P(\omega, t|\omega_0, t_0) = \frac{1}{2} \frac{∂^2}{∂\omega^2} P(\omega, t|\omega_0, t_0)$  
+$\frac{∂}{∂t} P(\omega, t|\omega_0, t_0) = \frac{1}{2} \frac{∂^2}{∂\omega^2} P(\omega, t|\omega_0, t_0)$ (1)  
 
-$P(\omega, t_0|\omega_0, t_0) = \delta(\omega-\omega_0)$
+$P(\omega, t_0|\omega_0, t_0) = \delta(\omega-\omega_0)$ (2)
 
 #
 
@@ -52,6 +52,11 @@ $\frac{∂}{∂t} \phi(s,t) = -\frac{s^2}{2}\phi(s,t)$,
 
 cuja solução geral dessa equação diferencial é $\phi(s,t) = \phi(s,t_0)exp[-\frac{s^2}{2}(t-t_0)]$
 
-Utilizando a condição de contorno para determinar $\phi(s,t_0)$:
+Utilizando a condição (2) de contorno para determinar $\phi(s,t_0)$:
 
-$$
+$\phi(s,t_0) = \int d\omega P(\omega, t_0|\omega_0, t_0) e^{is\omega} = \int d\omega \delta(\omega-\omega_0) e^{is\omega} = e^{is\omega_0}$
+
+Por fim, nossa função característica para o processo de Wiener está totalmente definida por:
+
+$\phi(s,t) = exp[is\omega_0 -\frac{s^2}{2}(t-t_0)]$
+
