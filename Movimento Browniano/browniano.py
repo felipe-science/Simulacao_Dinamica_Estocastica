@@ -29,6 +29,13 @@ def gerar_3caminhos():
     legend()
     show()
 
+    N = len(processo1)
+    f = open('wiener.txt', 'w')
+    for i in range(N):     
+        p = processo1[i]
+        f.write(str(i)+' '+str(p)+'\n')
+    f.close()
+
 
 def gerar_Ncaminhos():
 
@@ -44,3 +51,5 @@ def gerar_Ncaminhos():
 #show()
 
 gerar_3caminhos()
+
+
